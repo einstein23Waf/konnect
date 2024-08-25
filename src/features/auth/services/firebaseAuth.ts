@@ -13,7 +13,7 @@ import {
   User,
 } from "firebase/auth";
 
-const auth = FIREBASE_AUTH;
+export const auth = FIREBASE_AUTH;
 
 export const signUp = async (
   email: string,
